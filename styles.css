@@ -1,10 +1,16 @@
 
 /* Your CSS Code here. */
-.item-1{
-	margin: 0px:
-height: 100vh;
-	display: flex;
-justify-content: center;
-align-items: center;
-
-}
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to go to the next row */
+    justify-content: center; /* Positions items horizontally in the center */
+    align-items: center; /* Positions items vertically in the center */
+  }
+  
+  /* Styles for the items (you can adjust these according to your design) */
+  .item { /* Adjust the width as per your design (3 items in a row) */
+    height: 20px;
+	  width: 45px;
+    background-color: red;
+    margin: 10px;
+  }
